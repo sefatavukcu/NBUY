@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\bin\Debug\net6.0\Proje05_Metinsel_Metodlar.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\bin\Debug\net6.0\Proje05_Metinsel_Metodlar.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\bin\Debug\net6.0\Proje05_Metinsel_Metodlar.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\bin\Debug\net6.0\Proje05_Metinsel_Metodlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\bin\Debug\net6.0\Proje05_Metinsel_Metodlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\Proje05_Metinsel_Metodlar.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\Proje05_Metinsel_Metodlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\Proje05_Metinsel_Metodlar.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\Proje05_Metinsel_Metodlar.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\Proje05_Metinsel_Metodlar.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\Proje05_Metinsel_Metodlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\refint\Proje05_Metinsel_Metodlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\Proje05_Metinsel_Metodlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\Proje05_Metinsel_Metodlar.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje05_Metinsel_Metodlar\obj\Debug\net6.0\ref\Proje05_Metinsel_Metodlar.dll

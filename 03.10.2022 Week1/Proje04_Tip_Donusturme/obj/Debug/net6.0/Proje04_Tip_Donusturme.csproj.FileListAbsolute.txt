@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\bin\Debug\net6.0\Proje04_Tip_Donusturme.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\bin\Debug\net6.0\Proje04_Tip_Donusturme.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\bin\Debug\net6.0\Proje04_Tip_Donusturme.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\bin\Debug\net6.0\Proje04_Tip_Donusturme.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\bin\Debug\net6.0\Proje04_Tip_Donusturme.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\Proje04_Tip_Donusturme.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\Proje04_Tip_Donusturme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\Proje04_Tip_Donusturme.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\Proje04_Tip_Donusturme.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\Proje04_Tip_Donusturme.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\Proje04_Tip_Donusturme.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\refint\Proje04_Tip_Donusturme.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\Proje04_Tip_Donusturme.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\Proje04_Tip_Donusturme.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje04_Tip_Donusturme\obj\Debug\net6.0\ref\Proje04_Tip_Donusturme.dll
