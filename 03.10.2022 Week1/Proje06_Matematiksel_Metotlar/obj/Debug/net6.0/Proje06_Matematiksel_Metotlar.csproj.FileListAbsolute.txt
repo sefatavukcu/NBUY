@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\bin\Debug\net6.0\Proje06_Matematiksel_Metotlar.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\bin\Debug\net6.0\Proje06_Matematiksel_Metotlar.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\bin\Debug\net6.0\Proje06_Matematiksel_Metotlar.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\bin\Debug\net6.0\Proje06_Matematiksel_Metotlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\bin\Debug\net6.0\Proje06_Matematiksel_Metotlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\Proje06_Matematiksel_Metotlar.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\Proje06_Matematiksel_Metotlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\Proje06_Matematiksel_Metotlar.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\Proje06_Matematiksel_Metotlar.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\Proje06_Matematiksel_Metotlar.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\Proje06_Matematiksel_Metotlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\refint\Proje06_Matematiksel_Metotlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\Proje06_Matematiksel_Metotlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\Proje06_Matematiksel_Metotlar.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje06_Matematiksel_Metotlar\obj\Debug\net6.0\ref\Proje06_Matematiksel_Metotlar.dll

@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\bin\Debug\net6.0\Proje10_Switch_Conditions.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\bin\Debug\net6.0\Proje10_Switch_Conditions.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\bin\Debug\net6.0\Proje10_Switch_Conditions.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\bin\Debug\net6.0\Proje10_Switch_Conditions.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\bin\Debug\net6.0\Proje10_Switch_Conditions.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\Proje10_Switch_Conditions.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\Proje10_Switch_Conditions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\Proje10_Switch_Conditions.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\Proje10_Switch_Conditions.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\Proje10_Switch_Conditions.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\Proje10_Switch_Conditions.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\refint\Proje10_Switch_Conditions.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\Proje10_Switch_Conditions.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\Proje10_Switch_Conditions.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje10_Switch_Conditions\obj\Debug\net6.0\ref\Proje10_Switch_Conditions.dll

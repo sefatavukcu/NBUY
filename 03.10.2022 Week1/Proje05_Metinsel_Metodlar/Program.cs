@@ -79,5 +79,21 @@ class Program
         int siraNo = adres.ToLower().IndexOf(aranan.ToLower());
         Console.WriteLine($"{aranan} ifade {adres} içinde {siraNo} sıradan başlamaktadır.");
         */
+        /*
+        string metin = "Wissen Akademie";
+        Console.WriteLine($"Metnin ilk hali: {metin}"); // remove: sildirme
+        Console.WriteLine($"Akademie ifadesi silindikten sonraki hali: {metin.Remove(7)}");
+        Console.WriteLine($"Aka ifadesi silindikten sonraki hali: {metin.Remove(7,3)}");
+        */
+        /*
+        string urunAd = "IPhone 13 Pro";
+        // iphone-13-pro dönüştürme
+        //string sonuc = (urunAd.Replace(' ', '-')).ToLower();  // string null olabilir ama char varsa içinde bir şey olmalı. (char: boş bırakılmaz.)
+        string sonuc = urunAd.ToLower().Replace(" ", "-");
+        Console.WriteLine(sonuc);
+        string sonuc2 = urunAd.Replace("IPhone","Samsung");
+        Console.WriteLine(sonuc2);
+        */
+
     }
 }

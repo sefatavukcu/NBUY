@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\bin\Debug\net6.0\Proje07_Tarih_Metotlari.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\bin\Debug\net6.0\Proje07_Tarih_Metotlari.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\bin\Debug\net6.0\Proje07_Tarih_Metotlari.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\bin\Debug\net6.0\Proje07_Tarih_Metotlari.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\bin\Debug\net6.0\Proje07_Tarih_Metotlari.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\Proje07_Tarih_Metotlari.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\Proje07_Tarih_Metotlari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\Proje07_Tarih_Metotlari.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\Proje07_Tarih_Metotlari.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\Proje07_Tarih_Metotlari.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\Proje07_Tarih_Metotlari.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\refint\Proje07_Tarih_Metotlari.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\Proje07_Tarih_Metotlari.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\Proje07_Tarih_Metotlari.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\03.10.2022 Week1\Proje07_Tarih_Metotlari\obj\Debug\net6.0\ref\Proje07_Tarih_Metotlari.dll
