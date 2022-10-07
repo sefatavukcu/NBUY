@@ -92,82 +92,94 @@ class Program
         Console.WriteLine(rastgeleSayi3);
         */
 
-        
+
         // OYUN: Uygulamanın rastgele üreteceği bir sayıyı kullanıcının tahmin etmesini isteyeceğiz...
         // Rastgele üretilecek sayı 1-11 arası olsun...
         // Kullanıcı rastgele sayıdan küçük ya da büyük bir sayı girdiğinde kullanıcıya uygun bir şekilde mesaj versin...
         // Kullanıcı doğru sayıyı tahmin ettiyse ya da 3 or 5 hakkını kullandıysa program sona ersin...
 
-        
+
         int tahmin;
         Random rnd = new Random();
-        int uretilenSayi = rnd.Next(1,101);
+        int uretilenSayi = rnd.Next(1, 101);
         Console.WriteLine("********");
         Console.WriteLine(uretilenSayi);
         int hak = 1;  // Kullanıcının o sırada kaçıncı hakkını kullandığı bilgisi...
         int hakSiniri = 5;  // Kullanıcının toplam kaç hakka sahip olduğunun bilgisi...
-/*
-        do
-        {
-            Console.Write($"{hak}. Tahmininizi giriniz: ");
-            tahmin = Convert.ToInt32(Console.ReadLine());
-            
-
-            if (hak==hakSiniri && uretilenSayi!=tahmin)
-            {
-                Console.WriteLine("Kaybettiniz...");
-                break;
-            }
+        /*
+                do
+                {
+                    Console.Write($"{hak}. Tahmininizi giriniz: ");
+                    tahmin = Convert.ToInt32(Console.ReadLine());
 
 
-            if (hak<=hakSiniri)
-            {
-                if (tahmin>uretilenSayi)
-                {
-                Console.WriteLine("Büyük sayı girdiniz...");
-                }
-                else if (tahmin<uretilenSayi)
-                {
-                Console.WriteLine("Küçük sayı girdiniz...");
-                }
-                else
-                {
-                Console.WriteLine("Tebrikler...");
-                }
-            }
-            hak++;
+                    if (hak==hakSiniri && uretilenSayi!=tahmin)
+                    {
+                        Console.WriteLine("Kaybettiniz...");
+                        break;
+                    }
+
+
+                    if (hak<=hakSiniri)
+                    {
+                        if (tahmin>uretilenSayi)
+                        {
+                        Console.WriteLine("Büyük sayı girdiniz...");
+                        }
+                        else if (tahmin<uretilenSayi)
+                        {
+                        Console.WriteLine("Küçük sayı girdiniz...");
+                        }
+                        else
+                        {
+                        Console.WriteLine("Tebrikler...");
+                        }
+                    }
+                    hak++;
+
+
+                } while (tahmin!=uretilenSayi && hak<=hakSiniri);
+
+                */
+        string mesaj = "";
         
-
-        } while (tahmin!=uretilenSayi && hak<=hakSiniri);
-
-        */
-
         do
         {
             Console.Write($"{hak}. Tahmininizi giriniz: ");
             tahmin = Convert.ToInt32(Console.ReadLine());
-            if (tahmin>uretilenSayi)
+            if (tahmin > uretilenSayi)
             {
-                Console.WriteLine("Büyük girdin..");
+                mesaj = "Büyük Girdin...";
             }
-            else if (tahmin<uretilenSayi)
+            else if (tahmin < uretilenSayi)
             {
-                Console.WriteLine("Küçük girdin..");
+                mesaj = "Küçük girdin..";
             }
-            if (tahmin!=uretilenSayi)
+            if (tahmin != uretilenSayi)
             {
                 hak++;
                 if (hak<=hakSiniri)
                 {
-                    Console.WriteLine("Kaybettin...");
+                    Console.WriteLine(mesaj);
                 }
             }
-            else
-            {
-                Console.WriteLine("Kazandın...");
-            }
-        } while (hak<=hakSiniri && tahmin != uretilenSayi);
-        //eğer program bu satıra gelmiş ise ya doğru tahminde bulunulmuştur ya da hak sona ermiştir.
+            }   
+            while (hak <= hakSiniri && tahmin != uretilenSayi);
 
-    }
+        mesaj = tahmin == uretilenSayi ? "Kazandınız..." : "Kaybettiniz...";
+        Console.WriteLine(mesaj);
+            //if ( tahmin==uretilenSayi)
+            //{
+            //    Console.WriteLine("Kazandınız...");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Kaybettiniz...");
+            //}
+            //eğer program bu satıra gelmiş ise ya doğru tahminde bulunulmuştur ya da hak sona ermiştir.
+
+
+            // BU PROGRAM FARKLI ALGORİTMALARLA ÇÖZÜLEBİLİR...
+        }
 }
+

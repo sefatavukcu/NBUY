@@ -245,7 +245,11 @@
              * 
              * */
 
-             Console.WriteLine("sjjsjsjsj");
+            int[] sayilar = { 32, 65, 99, 12 };
+            foreach (var siradakiSayi in sayilar)
+            {
+                Console.WriteLine(siradakiSayi * siradakiSayi);
+            }
 
 
 
