@@ -28,6 +28,7 @@
 
 
 
+
         static void Main(string[] args)
         {
             // Sayı bulmaca oyununu, yeni öğrenilen methods konusu bağlamında yeniden hazırlayınız.
@@ -54,14 +55,14 @@
                 }
                 if (deger != random)
                 {
-                    Hak(++);
+                    Hak();
                     if (Hak() <= hakSiniri)
                     {
                         Console.WriteLine(mesaj);
                     }
                 }
             }
-            while (hak <= hakSiniri && deger != random);
+            while (Hak() <= && deger != random);
 
         }
     }
