@@ -1,5 +1,14 @@
 ﻿namespace Proje09_Interface
 {
+    // Interfaceler için belirtilmediğinde default erişim belirleyici publictir.
+    // Interfaceler protected private ya da static olarak işaretlenemezler.
+    // Interfaceler içinde çalışabilir kodlar olamaz. Yani metotların sadece imzası olur.
+    // Bir interface, bir ya da daha çok interfaceden miras alabilirler.
+    // Bir interface classtan miras alamaz.
+    // Eğer bir class bir interfaceden miras alıyorsa miras aldığı interfacedeki tüm metotları implemente etmek zorundadır.
+    // (Implemente : miras alınan interfacede imzası bulunan tüm metotların, içi dolu halleri...)
+      
+      
     interface IPersonel
     {
         public string Departman { get; set; }
@@ -56,9 +65,34 @@
             //IPersonel personel = new IPersonel(); // Hatalı kullanım!
 
 
-            Yonetici yonetici1 = new Yonetici();
-            Yonetici yonetici2 = new Yonetici("fjjf", "sdhds", "jsjdj", "kjdssdkj");
-    
-}
+            //Yonetici yonetici1 = new Yonetici();
+            //Yonetici yonetici2 = new Yonetici("fjjf", "sdhds", "jsjdj", "kjdssdkj");
+
+            Product product1 = new Product()
+            {
+                Id = 1,
+                Name = "IPhone 13 Pro Max",
+                Price = 36000,
+                Properties = "16 GB Ram",
+                Ratio = 0.5m,
+                CreatedDate = DateTime.Now
+            };
+
+            Console.WriteLine($"Product Name: {product1.Name} (Büyük Harfli: {product1.Name.ToUpper()}) Properties: {product1.Properties}");
+
+            Category category1 = new Category()
+            {
+                Id = 1,
+                Name = "Telefon",
+                CreatedDate = DateTime.Now,
+                Description = "Bu kategori telefonlar içindir."
+            };
+
+            Console.WriteLine($"Category Name: {category1.Name} (Büyük Harfli: {category1.Name.ToUpper()}) Description: {category1.Description}");
+
+
+            Console.ReadKey();
+        }
+        
     }
 }

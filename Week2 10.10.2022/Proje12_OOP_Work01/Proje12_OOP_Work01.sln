@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proje12_OOP_Work01", "Proje12_OOP_Work01.csproj", "{DE91BAD3-5328-46E7-9925-FA2D54F9B646}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{75783C2E-766D-4EC1-A33D-6EAB30A0F5BF}"
+	ProjectSection(SolutionItems) = preProject
+		Calisma_Aciklamalari.txt = Calisma_Aciklamalari.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE91BAD3-5328-46E7-9925-FA2D54F9B646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE91BAD3-5328-46E7-9925-FA2D54F9B646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE91BAD3-5328-46E7-9925-FA2D54F9B646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE91BAD3-5328-46E7-9925-FA2D54F9B646}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D079BCF-52EF-499B-851D-B575CE3C6E14}
+	EndGlobalSection
+EndGlobal

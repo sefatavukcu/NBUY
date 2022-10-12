@@ -1,0 +1,12 @@
+1) Birkaç bölümde okuyan öðrencilerin bilgilerinin girilmesi ve bunlarýn doðru bir þekilde class/interface/list yapýlarýnýn içerisinde
+tutulmasýný saðlayarak ekrana sonucu yazdýrýnýz.
+2) Bolum class  --> Id, Ad, Aciklama
+3) Ogrenci class  --> Id, OgrNo, Ad, Soyad, Yas
+4) 2 adet bölüm bilgisi olsun.
+5) Her bölümün içinde de 3'er adet öðrenci bilgisi olsun.
+6) Bu bilgiler klavyeden girilsin.
+
+YOL HARÝTASI
+1) Ýhtiyaç duyulan interface/class yapýlarý hazýrlanmalý
+2) Gerekli metot varsa onlar hazýrlanmalý
+3) Program kodlanmalý

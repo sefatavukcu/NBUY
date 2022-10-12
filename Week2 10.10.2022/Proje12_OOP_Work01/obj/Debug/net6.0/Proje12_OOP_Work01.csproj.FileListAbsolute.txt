@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\bin\Debug\net6.0\Proje12_OOP_Work01.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\bin\Debug\net6.0\Proje12_OOP_Work01.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\bin\Debug\net6.0\Proje12_OOP_Work01.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\bin\Debug\net6.0\Proje12_OOP_Work01.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\bin\Debug\net6.0\Proje12_OOP_Work01.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\Proje12_OOP_Work01.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\Proje12_OOP_Work01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\Proje12_OOP_Work01.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\Proje12_OOP_Work01.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\Proje12_OOP_Work01.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\Proje12_OOP_Work01.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\refint\Proje12_OOP_Work01.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\Proje12_OOP_Work01.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\Proje12_OOP_Work01.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week2 10.10.2022\Proje12_OOP_Work01\obj\Debug\net6.0\ref\Proje12_OOP_Work01.dll
