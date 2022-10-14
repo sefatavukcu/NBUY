@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En İyi 3 Film</title>
+</head>
+<body>
+    <h1><a href> İzlenmesi Gereken En İyi 3 Film</a></h1>
+    <p>Bu filmleri izlemeyen <strong>ölsün.</strong></p>
+    <h2>Esaretin Bedeli</h2>
+    <p>
+        Esaretin Bedeli, Andy ve Red isimli iki mahkumun parmaklıklar ardında kurdukları dünyanın hikayesini anlatıyor. Andy Dufresne, genç ve başarılı bir bankerdir. Karısını ve karısının sevgilisini öldürmek suçundan yargılanır ve ömür boyu hapis cezası alır. Shawsank Hapishanesi'nde dayak, işkence, tecavüz, her türlü durum yaşanmaktadır fakat Andy gene de hayata bağlı ve iyimserdir. Bu tutumu etrafındakileri de etkiler. Andy umutlu bakış açısıyla çevresindeki tüm mahkumları, parmaklıklar arkasında bile özgür bir yaşam olabileceğine inandırır. Andy'nin bu çabalarına ortak olacak bir arkadaşı da olacaktır: Red.Bir Stephen King uyarlaması olan filmde Morgan Freeman ve Tim Robbins başrolde. Film, 1995'te, aralarında en iyi film adaylığı da olmak üzere tam 7 dalda Oscar'a aday gösterildi.</p>
+    <br>
+    <h2>Er Ryan'ı Kurtarmak</h2>
+    <p>
+        Er Ryan’ı Kurtarmak'ta, dört çocuk annesi bir kadı İkinci Dünya Savaşı’nda kaybettiği üç oğlunun ardından fazlasıyla yaralanmıştır. Şimdi tek dileği hayatta kalan tek oğlunun savaştan sağ salim dönmesidir. Yakarışları karşılık bulur ve Başkan tarafından verilen bir emirle James Ryan’ın ne pahasına olursa olsun bu savaştan sağ çıkması sağlanacaktır. Normandiya çıkarmasının yapıldığı gün, sekiz kişilik bir asker birliği farklı bir göreve, Ryan’ı kurtarma görevine atanır. Ancak yüzbaşı John Miller tarafından yönetilen bu birim, can pazarının yaşandığı bu zorlu ortamda hakikatli bir yaşam mücadelesine atılacak; tek bir adamı kurtarmak için sekiz kişinin hayatının tehlikeye atılmasının meşruluğunu sorgulayacaktır.</p>
+    <h2>Titanik</h2>
+    <p>Dünyanın hatırlamak istemediği türden felaketlerden olan 'Titanik faciası', dev prodüksiyonların yönetmeni James Cameron tarafından çekilen görkemli bir film.
+        Teknolojinin son sürat ilerlediği bir dönemde, insanlar üstesinden gelemeyecekleri hiç bir sorun olamayacağına inanmaya başlamışlardır. 'Titanic' adlı dev transatlantik ise, insanlığın doğaya karşı gövde gösterisi gibidir. Bu 'Düşler Gemisi' nin yolcuları arasında Avrupa`da birkaç yıl geçirdikten sonra Amerika'ya dönmekte olan, Jack adlı genç bir ressam ile nişanlısı ve annesiyle Philadelphia`ya giden Rose adlı genç bir kız da vardır. İki genç, şans eseri tanışacak, aralarındaki sınıf farkına aldırmaksızın birbirlerine yakınlaşacaktır. Bu arada doğa insanoğlunun günden güne artan kibirine bir nokta koymayı planlamaktadır. Yola çıkılmasından dört buçuk gün sonra, 10 Nisan 1912'de, Titanic iki saat kırk dakika süren ve sulara gömülmesiyle son bulan, hazin olayların başlamasına neden olacak buz dağına çarpacaktır.</p>
+    </body>
+</html>
