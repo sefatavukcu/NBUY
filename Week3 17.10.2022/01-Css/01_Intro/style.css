@@ -1,0 +1,13 @@
+/* Bunun içinde css kodları olacak.*/
+h1 {
+    color: green;
+    background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+p {
+    text-indent: 25px;
+    color: black;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
