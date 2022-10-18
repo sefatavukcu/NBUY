@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        p::first-line {
+            font-weight: bold;
+            color: red;
+            word-spacing: 7px; /*Kelime arası boşluk*/
+            letter-spacing: 5px; /*Harf arası boşluk*/
+        }
+        p.myClass::first-line {
+            color: green;
+        }
+        p.myClass::first-letter {
+            font-size: 30px; /*İlk harf boyutu*/
+        }
+        /*Seçtiğimiz yeri görsel olarak değiştirir.*/
+        ::selection{
+            background-color: yellow;
+            color: navy;
+            font-weight: bold; /*etki etmez*/
+            font-size: 30px; /*etki etmez*/
+        }
+        /*sona ekler*/
+        p::after{
+            content: "Bu yeni eklendi.";
+            font-size: 30px;
+        }
+        /*başa ekler*/
+        p::before{
+            content: "Bu before ile eklendi.";
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, qui quam tempore necessitatibus maiores suscipit quisquam, dicta libero architecto ipsam sapiente quia commodi quas pariatur nulla quos est quod porro?</p>
+    <p class="myClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est animi, explicabo ab iure quos eaque, tempore atque tempora pariatur id saepe ea repellat! Praesentium illum officiis placeat rem asperiores.</p>
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Movie Application</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            height: 100vh;
+        }
+        .main-header{
+            background-color: tomato;
+            padding: 8px 16px;
+        }
+        .main-header-logo{
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 21px;
+        }
+        .main-nav{
+            display: inline-block;
+            text-align: right;
+            width: calc(100% - 190px);
+        }
+        .main-nav-items{
+            margin: 0;
+            padding: 0;
+            list-style:none;
+        }
+        .main-nav-item {
+            display: inline-block;
+            margin: 0px 10px;
+        }
+        .main-nav-item a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .main-nav-item a:hover {
+            color: rgb(44, 48, 119);
+        }
+        .main-nav-item-login a {
+            background-color: teal;
+            padding: 4px 16px;
+            border-radius: 15px;
+            border: 2px solid #fff;
+        }
+        .main-nav-item-login a:hover {
+            color: teal;
+            background-color: #fff;
+            border-radius: 15px;
+            border: 2px solid teal;
+        }
+        #showcase {
+            background: url(/00_Images/home-bg.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgb(39,39,50) ;
+            color: aliceblue;
+            padding: 10px;
+            width: 100%;
+            height: 80vh;
+        }
+        #how-it-works {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        #how-it-works h2{
+            color: #3e4555;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .row {
+            margin-bottom: 40px;
+        }
+        .col {
+            display: inline-block;
+            width: 30%;
+            margin: 8px;
+            padding: 16px;
+        }
+        .icon-box i{
+            color: tomato;
+           
+            font-size: 50px;
+            border-radius: 5px;
+        }
+        .icon-box h3 {
+            color: #3e4555 ;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <!-- Burası sayfanın üst kısmı-->
+            <a href="#" class="main-header-logo">Movie Application</a>
+            <nav class="main-nav">
+                <ul class="main-nav-items">
+                    <li class="main-nav-item"><a href="">Home</a></li>
+                    <li class="main-nav-item"><a href="">Movies</a></li>
+                    <li class="main-nav-item"><a href="">Contact</a></li>
+                    <li class="main-nav-item main-nav-item-login"><a href=""><i class="fa-solid fa-user" style="padding: 5px;"></i>Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Burası sayfanın ana içerik kısmı-->
+            <section id="showcase">
+                <h1>Welcome to Movie Application</h1>
+            </section>
+            <section id="how-it-works">
+                <div class="row"></div>
+                    <h2>How it Works?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione animi doloremque, facere dolores repudiandae odit quidem non voluptatum, vel, harum aut dolorem minus veritatis saepe alias distinctio! Recusandae, magnam ipsum!</p>
+                </div>
+                <div class="row">
+                    <div class="col icon-box">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <h3>Register</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, impedit.</p>
+                    </div>
+                    <div class="col icon-box">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h3>Choose a Plan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, impedit.</p>
+                    </div>
+                    <div class="col icon-box">
+                        <i class="fa-solid fa-film"></i>
+                        <h3>Enjoy Movies</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, impedit.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

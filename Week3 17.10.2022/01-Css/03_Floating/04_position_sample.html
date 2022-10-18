@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .model{
+            width: 400px;
+            height: 250px;
+            background-color: rgb(185, 179, 179);
+            border: 1px solid rgb(199, 199, 199);
+            border-radius: 5px;
+            position: relative;
+            top: calc(47vh - 125px);
+            left: calc(50% - 200px);
+            padding: 5px;
+
+        }
+        .top-message{
+            position: absolute;
+            top: -13px;
+            left: 20px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(207, 6, 6);
+            padding: 2px;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 5px ;
+        }
+        .xbutton {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: red;
+            border: 1px solid black;
+            border-radius: 5px;
+            color: white;
+        }
+        .message {
+            position: absolute;
+            top: 95px;
+            left: 65px;
+        }
+        .cbutton {
+            position: absolute;
+            bottom: 25px;
+            left: 180px;
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 7px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="model">
+        <p class="top-message">Oyundan çıkmak üzeresiniz!</p>
+        <button class="xbutton">X</button>
+        <p class="message">Kapatmak için aşağıdaki butona tıklayınız.</p>
+        <button class="cbutton">Close</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Classes</title>
+    <style>
+        a {
+            border: 2px solid pink;
+            padding: 5px 8px;
+            display: inline-block;
+            width: 70px;
+            text-align: center;
+            text-decoration: none;
+        }
+        a:link{
+            background-color: white;
+            color: tomato;
+        }
+        /* a:visited{
+            background-color: tomato;
+            color: white; 
+        }*/
+        /* Üzerine gelince rengini değiştirir.*/
+        a:hover {
+            background-color: tomato;
+            color: white;
+        }
+        /* aktif sayfayı*/
+       /* a:active{
+            color: white;
+            background-color: tomato;
+        } */
+        div:hover p{
+            display: block;
+            color: red;
+        }
+        p{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="03_borders.html">Border</a>
+    <a href="06_navbar.html">Navbar</a>
+    <a href="07_styling_list.html">Styling</a>
+    <br><br>
+    <div>
+        Üzerime gelsene :)
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, vero? Voluptatum, maiores eaque laudantium nemo ullam quo error officia distinctio.</p>
+    </div>
+
+</body>
+</html>
