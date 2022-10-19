@@ -1,0 +1,48 @@
+/* Bu class tüm butonların ortak özelliklerini kapsayacak.*/
+.btn{
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    padding: 7px 15px;
+    font-size: 16px;
+    cursor: pointer; /*imleç el işareti olur herhangi bir yazı tipinde*/
+    border: none;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+.btn-primary {
+    background-color: #dd5353;
+    color: #eddbcb;
+    border: 2px solid #dd5353 ;
+}
+.btn-primary:hover {
+    background-color: #eddbcb;
+    color: #dd5353;
+}
+.btn-outline-primary {
+    background-color: #dd5353;
+    color: #eddbcb;
+    border: 2px solid #dd5353 ;
+}
+.btn-outline-primary:hover {
+    background-color: #eddbcb;
+    color: #dd5353;
+}
+.btn-secondary {
+    background-color: #250d85;
+    color: #dff6ff;
+    border: 2px solid #dff6ff ;
+}
+.btn-secondary:hover {
+    background-color: #dff6ff;
+    color: #250d85;
+}
+.btn-outline-secondary {
+    background-color: #dff6ff;
+    color: #250d85;
+    border: 2px solid #dff6ff ;
+}
+.btn-outline-secondary:hover {
+    background-color: #256d85;
+    color: #dff6ff;
+}

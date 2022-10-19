@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+        .header, .footer {
+            background-color: #06283d;
+            padding-left: 20px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+        }
+        .header h1 {
+            color: white;
+            font-size: 45px;
+        }
+        .content {
+            display: flex;
+            margin-top: 15px;
+            height: calc(100vh - 220px);
+            flex-direction: row-reverse;
+        }
+        .content-left {
+            width: 25%;
+        }
+        .content-left ul {
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+        }
+        .content-left ul li {
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            background-color: #256d85;
+            color: white;
+        }
+        .content-left ul li:hover {
+            cursor: pointer;
+            background-color: rgb(61, 54, 46);
+        }
+        .content-right {
+            width: 75%;
+            padding-right: 20px;
+        }
+        .content-right h1 {
+            margin: 0;
+            color: #00285b;
+        }
+        .footer {
+            height: 60px;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Frontend Dersleri</h1>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul> 
+            </div>
+            <div class="content-right">
+                <h1>Uygulama Geliştirici Eğitimi</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ipsa, omnis, minus veritatis repudiandae iure autem deserunt eligendi harum magnam consequatur magni repellendus. Harum ut possimus illum nesciunt quaerat repellendus.</p>
+            </div>
+        </div>
+        <div class="footer">
+            Bu sayfa BAU Wissen Akademie Öğrencileri tarafından hazırlanmıştır.
+        </div>
+    </div>
+</body>
+</html>

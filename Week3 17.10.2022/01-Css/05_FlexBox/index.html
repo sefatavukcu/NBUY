@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .flex-item {
+            background-color: red;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            font-size: 20px;
+            height: 25px;
+        }
+        .flex-container {
+            height: 400px;
+            background-color: navy;
+            display: flex;
+            /*align-items: center;*/ /*dikeyde ortalar.*/
+            /*align-items: flex-end;*/ /*alt tarafa hizalar*/
+            /*align-items: flex-start;*/ /*üst tarafa hizalar*/
+
+            /* justify-content: flex-end; */
+            /*align-items: flex-end;*/     /*bu iki satır ile sağ alt köşeye hizalar.*/
+
+            /* justify-content: center; */
+            /*align-items: center;*/   /*Bu iki satır ile tam ortaya hizalar.*/
+
+
+            /* flex-direction: row;
+            flex-wrap: wrap; */
+            /*flex-flow: row wrap;*/  /*direction ve wrap'ın birleşik kullanımı. Aynısı column içinde geçerli.*/
+            /*justify-content: center;*/ /*flex itemlerini ortalar.*/
+            /*justify-content: end; */   /*sağa hizalar*/
+            /*justify-content: start; */ /*sola hizalar*/
+            /*justify-content: space-around;*/ /*aralıkları eşit bir şekilde yerleştirir.*/
+            /*justify-content: space-between;*/ /*baştaki ve sondakiyi dayar ve geri kalanı eşit olarak yerleştirir.*/
+
+
+
+
+
+            /* flex-direction: column;
+            flex-wrap: wrap;  */
+
+            /*flex-direction: row;*/ /*aynı satıra yerleştirir.*/
+            /*flex-direction: column; */ /*aynı sütuna yerleştirir. */
+            /*flex-direction: column-reverse;*/ /*sütunda flex itemleri ters yerleştirir.*/
+            /*flex-direction: row-reverse;*/  /*satırda flex itemleri ters yerleştirir.*/
+            /*flex-wrap: nowrap;*/ /*bir satıra sığmayan flex itemler olursa aynı satıra devam eder. alt satıra geçmez!*/
+            /*flex-wrap: wrap;*/ /*sığmayan aşağıya geçer.*/
+            /*flex-wrap: wrap-reverse;*/ /*ters yerleştirir.*/
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item" style="flex-shrink: 20 ;">6</div>
+
+        <!-- flex boyutlarını otomatik genişliği ve eşit hizalanmasını sağlar -->
+        <!-- <div class="flex-item" style="flex-grow:1 ;">1</div>
+        <div class="flex-item" style="flex-grow:1 ;">2</div>
+        <div class="flex-item" style="flex-grow:1 ;">3</div>
+        <div class="flex-item" style="flex-grow:1 ;">4</div>
+        <div class="flex-item" style="flex-grow:1 ;">5</div>
+        <div class="flex-item" style="flex-grow:3 ;">6</div> -->
+
+        <!-- order ile istenilen rakamların yerleri değiştirilebilir.-->
+        <!-- <div class="flex-item" style="order:2 ;">1</div>
+        <div class="flex-item" style="order:4 ;">2</div>
+        <div class="flex-item" style="order:6 ;">3</div>
+        <div class="flex-item" style="order:3 ;">4</div>
+        <div class="flex-item" style="order:1 ;">5</div>
+        <div class="flex-item" style="order:5 ;">6</div> -->
+
+        <!-- <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div> -->
+    </div>
+</body>
+</html>
