@@ -45,8 +45,8 @@
 // console.log(urun1, typeof urun1);
 // console.log(urun1d, typeof urun1d);
 
-let ogrenciler = ['Cemre','Melahat','Sema','Hasancan']
-let sonuc;
+// let ogrenciler = ['Cemre','Melahat','Sema','Hasancan']
+// let sonuc;
 // sonuc = ogrenciler.length;
 // sonuc=ogrenciler;
 // console.log(sonuc);
@@ -58,19 +58,38 @@ let sonuc;
 // console.log(sonuc);
 
 
-ogrenciler[4]='Serhat';
-console.log(ogrenciler);
+// ogrenciler[4]='Serhat';
+// console.log(ogrenciler);
 
-ogrenciler.push('Aylin');
-console.log(ogrenciler);
+// ogrenciler.push('Aylin');
+// console.log(ogrenciler);
 
-ogrenciler.pop();
-console.log(ogrenciler);
+// ogrenciler.pop();
+// console.log(ogrenciler);
 
-sonuc = ogrenciler.push('Aylin')
-sonuc = ogrenciler.pop()
-console.log(sonuc);
+// sonuc = ogrenciler.push('Aylin')
+// sonuc = ogrenciler.pop()
+// console.log(sonuc);
 
-sonuc=ogrenciler.unshift('Aylin');
-console.log(sonuc);
-console.log(ogrenciler);
+// sonuc=ogrenciler.unshift('Aylin');
+// console.log(sonuc);
+// console.log(ogrenciler);
+
+let sonuc;
+let markalar1 = ['Mazda','Toyota','Subaru'];
+let markalar2 = ['TOGG','Mitsubishi'];
+let markalar3 = ['Volvo'];
+console.log(markalar1);
+console.log(markalar2);
+console.log(markalar3);
+
+sonuc = markalar1.concat(markalar2) // Birleştirme
+console.log('Sonuç: ' + sonuc);
+
+sonuc = markalar1.concat(markalar2,markalar3);
+console.log('Sonuç: ' + sonuc);
+
+sonuc = markalar1.splice(0,1);  // Silineni yazdırır. ve diziden çıkartır. istenilen yerden istenildiği kadar eleman
+console.log('Sonuç: ' + sonuc);
+
+
