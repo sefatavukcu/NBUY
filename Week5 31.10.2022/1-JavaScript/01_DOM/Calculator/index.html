@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        .tablo{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #sonuc {
+            background-color: black;
+            color: white;
+            margin-bottom: 20px;
+        }
+        #sifir{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: end;
+            font-size: 40px;
+        }
+        button{
+            background-color: rgb(235, 235, 235);
+            padding: 20px;
+            margin-top: 5px;
+            margin-right: 5px;
+            border: 1px solid lightcyan;
+        }
+        #esit {
+            background-color: blue;
+        }
+        #esit button{
+            background-color: blue;
+            border: none;
+        }
+        #nokta{
+            padding-right: 25px;
+        }
+        #ac{
+            background-color: red;
+            color: white;
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table class="tablo">
+    
+                <tr id="sonuc">
+                    <th id="sifir" colspan="4">0</th>
+                </tr>
+                <tr>
+                    <th><button>+</button></th>
+                    <th><button>-</button></th>
+                    <th><button>*</button></th>
+                    <th><button>/</button></th>
+                </tr>
+                <tr>
+                    <th><button>7</button></th>
+                    <th><button>8</button></th>
+                    <th><button>9</button></th>
+                    <th id="esit" rowspan="4"><button>=</button></th>
+                </tr>
+                <tr>
+                    <th><button>4</button></th>
+                    <th><button>5</button></th>
+                    <th><button>6</button></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th><button>1</button></th>
+                    <th><button>2</button></th>
+                    <th><button>3</button></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th><button>0</button></th>
+                    <th><button id="nokta">.</button></th>
+                    <th><button id="ac">AC</button></th>
+                    <th></th>
+                </tr>
+        
+    </table>
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
