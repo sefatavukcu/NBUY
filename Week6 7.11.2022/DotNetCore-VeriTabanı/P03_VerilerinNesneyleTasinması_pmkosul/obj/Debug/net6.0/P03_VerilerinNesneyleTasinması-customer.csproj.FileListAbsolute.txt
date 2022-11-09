@@ -1,0 +1,5 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week6 7.11.2022\DotNetCore-VeriTabanı\P03_VerilerinNesneyleTasinması-customer\obj\Debug\net6.0\P03_VerilerinNesneyleTasinması-customer.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week6 7.11.2022\DotNetCore-VeriTabanı\P03_VerilerinNesneyleTasinması-customer\obj\Debug\net6.0\P03_VerilerinNesneyleTasinması-customer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week6 7.11.2022\DotNetCore-VeriTabanı\P03_VerilerinNesneyleTasinması-customer\obj\Debug\net6.0\P03_VerilerinNesneyleTasinması-customer.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week6 7.11.2022\DotNetCore-VeriTabanı\P03_VerilerinNesneyleTasinması-customer\obj\Debug\net6.0\P03_VerilerinNesneyleTasinması-customer.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week6 7.11.2022\DotNetCore-VeriTabanı\P03_VerilerinNesneyleTasinması-customer\obj\Debug\net6.0\P03_VerilerinNesneyleTasinması-customer.csproj.CoreCompileInputs.cache
