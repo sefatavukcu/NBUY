@@ -1,4 +1,3 @@
-using System.Data.SqlClient;
 using Microsoft.Data.Sqlite;
 using P05_KatmanliMimari.DataAccessLayer.Entities;
 
@@ -36,20 +35,20 @@ namespace P05_KatmanliMimari.DataAccessLayer
                 {
                     connection.Open();
                     string queryString = "select CustomerId, CompanyName, ContactName, City from Customers ";
-                    SqlCommand sqlCommand = new SqlCommand(queryString, connection);
-                    SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
-                    while (sqlDataReader.Read())
+                    SqliteCommand sqliteCommand = new SqliteCommand(queryString, connection);
+                    SqliteDataReader sqliteDataReader = sqliteCommand.ExecuteReader();
+                    while (sqliteDataReader.Read())
                     {
                         musteri.Add(new Musteri()
                         {
-                            CustomerId = sqlDataReader[0].ToString(),
-                            CompanyName = sqlDataReader["CompanyName"].ToString(),
-                            ContactName = (sqlDataReader[2].ToString()),
-                            City = (sqlDataReader[3].ToString())
+                            CustomerId = sqliteDataReader[0].ToString(),
+                            CompanyName = sqliteDataReader["CompanyName"].ToString(),
+                            ContactName = (sqliteDataReader[2].ToString()),
+                            City = (sqliteDataReader[3].ToString())
                         });
 
                     }
-                    sqlDataReader.Close();
+                    sqliteDataReader.Close();
                 }
                 catch (Exception)
                 {
