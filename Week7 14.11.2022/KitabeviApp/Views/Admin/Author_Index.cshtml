@@ -1,0 +1,28 @@
+@model List<Author>
+@{
+    ViewData["Title"] = "Author_Index";
+}
+
+<h1 class="display-6">Author List</h1>
+<hr>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>BirthYear</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <body>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Id</td>
+                <td>@c.Name</td>
+                <td>@c.BirthYear</td>
+                <td>@c.Gender</td>
+            </tr>
+        }
+    </body>
+</table>
