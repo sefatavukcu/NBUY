@@ -1,0 +1,38 @@
+@model Yazar
+@{
+    ViewData["Title"] = "YazarEkle";
+}
+
+<h1 class="display-6">Yeni Yazar Ekle</h1>
+<hr>
+<form asp-controller="Home" asp-action="YazarEkle" method="post">
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Ad"></label>
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Ad">
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="DogumYili"></label>
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="DogumYili">
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Cinsiyet"></label>
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Cinsiyet">
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-4 offset-2"> @*offset kaydırarak yazdırır. burada 2 kolon kaydırdı*@
+            <input class="btn btn-success" type="submit" value="Kaydet">
+        </div>
+    </div>
+</form>

@@ -1,0 +1,49 @@
+@model Kitap
+@{
+    ViewData["Title"] = "KitapEkle";
+}
+
+<h1 class="display-6">Yeni Kitap Ekle</h1>
+<hr>
+<form asp-controller="Home" asp-action="KitapEkle" method="post">
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Ad"></label>
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Ad">
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="BasimYili"></label>
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="BasimYili">
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="SayfaSayisi"></label>
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="SayfaSayisi">
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-2">
+            <label class="form-label" asp-for="Ozet"></label>
+        </div>
+        <div class="col-4">
+            <input class="form-control" type="text" asp-for="Ozet">
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-4 offset-2"> @*offset kaydırarak yazdırır. burada 2 kolon kaydırdı*@
+            <input class="btn btn-success" type="" value="Kaydet">
+        </div>
+    </div>
+</form>
