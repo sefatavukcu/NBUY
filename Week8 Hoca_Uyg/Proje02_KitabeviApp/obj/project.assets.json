@@ -1226,9 +1226,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week8 Hoca_Uyg\\Proje02_KitabeviApp\\KitabeviApp.csproj",
-      "projectName": "KitabeviApp",
-      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week8 Hoca_Uyg\\Proje02_KitabeviApp\\KitabeviApp.csproj",
+      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week8 Hoca_Uyg\\Proje02_KitabeviApp\\Proje02_KitabeviApp.csproj",
+      "projectName": "Proje02_KitabeviApp",
+      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week8 Hoca_Uyg\\Proje02_KitabeviApp\\Proje02_KitabeviApp.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week8 Hoca_Uyg\\Proje02_KitabeviApp\\obj\\",
       "projectStyle": "PackageReference",

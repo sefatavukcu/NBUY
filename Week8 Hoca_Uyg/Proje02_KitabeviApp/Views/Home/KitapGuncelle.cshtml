@@ -6,6 +6,7 @@
 <h1 class="display-6">Kitap Güncelle</h1>
 <hr>
 <form asp-controller="Home" asp-action="KitapGuncelle" method="post">
+    <input type="hidden" value="@Model.Kitap.Id" name="Kitap.Id">  @*hidden: gizler, sayfada göstermez *@
     <div class="row mb-2">
         <div class="col-2">
             <label class="form-label" asp-for="Kitap.Ad"></label>
