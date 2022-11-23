@@ -1,0 +1,22 @@
+﻿@model List<KitapListViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-9">
+                <div class="row">
+                    @foreach (var kitap in Model)
+                    {
+                        <partial name="_Kitap" model="kitap" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

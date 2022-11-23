@@ -11,7 +11,7 @@ public class HomeController : Controller
     KitabeviContext context = new KitabeviContext();
     public IActionResult Index()
     {
-        List<Kitap> kitaplar =  context
+        List<Kitap> kitaplar = context
                 .Kitaplar
                 .Include(k => k.Kategori)
                 .Include(k => k.Yazar)
@@ -25,7 +25,7 @@ public class HomeController : Controller
                 SayfaSayisi = k.SayfaSayisi,
                 YazarAd = k.Yazar.Ad,
                 KategoriAd = k.Kategori.Ad
-            }).ToList();                
+            }).ToList();
         return View(kitapListViewModels);
     }
     public IActionResult KategoriListesi()
@@ -102,16 +102,17 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
-            Yazar yazar = new Yazar(){
-                Ad=yazarViewModel.Ad,
-                DogumYili=yazarViewModel.DogumYili,
-                Cinsiyet=yazarViewModel.Cinsiyet
+            Yazar yazar = new Yazar()
+            {
+                Ad = yazarViewModel.Ad,
+                DogumYili = yazarViewModel.DogumYili,
+                Cinsiyet = yazarViewModel.Cinsiyet
             };
             context.Yazarlar.Add(yazar);
             context.SaveChanges();
             return RedirectToAction("YazarListesi");
         }
-        return View();        
+        return View();
     }
 
     public IActionResult KitapEkle()
@@ -223,19 +224,16 @@ public class HomeController : Controller
         context.SaveChanges();
         return RedirectToAction("KitapListesi");
     }
-    //Kitap Listesi, Kategori ve Yazar listeleri gibi tablo olsun.
-    //Yazarlar için Silme
-    //Kitaplar için güncelleme ve silme 
-    //işlemlerini yapın.
+
     public IActionResult KategoriyeGoreKitapListesi(int id)
     {
         List<Kitap> kitaplar = context
             .Kitaplar
-            .Where(k=>k.KategoriId == id)
-            .Include(k=>k.Kategori)
-            .Include(k=>k.Yazar)
+            .Where(k => k.KategoriId == id)
+            .Include(k => k.Kategori)
+            .Include(k => k.Yazar)
             .ToList();
-        
+
         List<KitapListViewModel> kitapListViewModels = kitaplar
             .Select(k => new KitapListViewModel()
             {
@@ -245,27 +243,33 @@ public class HomeController : Controller
                 SayfaSayisi = k.SayfaSayisi,
                 YazarAd = k.Yazar.Ad,
                 KategoriAd = k.Kategori.Ad
-            }).ToList();                
-        return View("Index",kitapListViewModels);//kitapListViewModels bu bilgiyi  Index sayfasına yolluyoruz
-    }
+            }).ToList();
+        ViewBag.Tip="Kategori";
+        return View("Index", kitapListViewModels);
 
-    public IActionResult YazarlaraGoreKitapListesi(int id)
+    }
+    public IActionResult YazaraGoreKitapListesi(int id)
     {
-            List<Kitap> yazarlar = context
+        List<Kitap> kitaplar = context
             .Kitaplar
-            .Where(k=>k.KategoriId == id)
-            .Include(k=>k.Kategori)
-            .Include(k=>k.Yazar)
+            .Where(k => k.YazarId == id)
+            .Include(k => k.Kategori)
+            .Include(k => k.Yazar)
             .ToList();
-            
-        List<YazarViewModel> yazarViewModels = yazarlar
-            .Select(k => new YazarViewModel()
+
+        List<KitapListViewModel> kitapListViewModels = kitaplar
+            .Select(k => new KitapListViewModel()
             {
                 Id = k.Id,
                 Ad = k.Ad,
-                DogumYili = k.Yazar.DogumYili,
-                Cinsiyet = k.Yazar.Cinsiyet
-            }).ToList();                
-        return View("Index",yazarViewModels);//kitapListViewModels bu bilgiyi  Index sayfasına yolluyoruz
+                BasimYili = k.BasimYili,
+                SayfaSayisi = k.SayfaSayisi,
+                YazarAd = k.Yazar.Ad,
+                KategoriAd = k.Kategori.Ad
+            }).ToList();
+        ViewBag.Tip="Yazar";
+        return View("Index", kitapListViewModels);
+
     }
+
 }

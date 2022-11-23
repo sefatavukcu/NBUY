@@ -12,9 +12,9 @@ namespace KitabeviApp.ViewComponents
         KitabeviContext context = new KitabeviContext();
         public IViewComponentResult Invoke()
         {
-            if (RouteData.Values["id"]!=null)
+            if (RouteData.Values["id"] != null)
             {
-                ViewBag.SeciliKategori = int.Parse(RouteData.Values["id"].ToString());//program cs'deki id
+                ViewBag.SeciliKategori = int.Parse(RouteData.Values["id"].ToString());
             }
             
             return View(context.Kategoriler.ToList());

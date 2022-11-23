@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using KitabeviApp.Models;
 
 namespace KitabeviApp.ViewModels
 {
@@ -18,6 +17,5 @@ namespace KitabeviApp.ViewModels
         [Display(Name ="Yazar Doğum Yılı: ", Prompt ="2000...")]
         public int? DogumYili { get; set; }
         public char Cinsiyet { get; set; }
-        public List<Kitap> Kitaplar { get; set; }
     }
 }
