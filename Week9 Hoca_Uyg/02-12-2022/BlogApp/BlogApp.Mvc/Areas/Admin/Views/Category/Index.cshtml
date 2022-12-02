@@ -1,0 +1,155 @@
+﻿@using BlogApp.Shared.Utilities.Result.ComplexTypes
+@using BlogApp.Entities.Dtos
+@model CategoryListDto
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Kategoriler Anasayfa";
+}
+@if (Model.ResultStatus == ResultStatus.Success)
+{
+    @*Kategoriler listelenecek*@
+    <div id="modalPlaceHolder" aria-hidden="true"></div>
+    <h1 class="mt-4">Admin Kategoriler</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+        <li class="breadcrumb-item active">Kategoriler</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table mr-1"></i>
+            Kategoriler
+        </div>
+        <button class="btn btn-success" id="btnEkle">Ekle</button>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="categoriesTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ad</th>
+                            <th>Açıklama</th>
+                            <th>Aktif mi?</th>
+                            <th>Silinmiş mi?</th>
+                            <th>Not</th>
+                            <th>Oluşturulma Tarihi</th>
+                            <th>Oluşturan Kullanıcı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var category in Model.Categories)
+                        {
+                            <tr>
+                                <td>@category.Id</td>
+                                <td>@category.Name</td>
+                                <td>@category.Description</td>
+                                <td>@category.IsActive</td>
+                                <td>@category.IsDeleted</td>
+                                <td>@category.Note</td>
+                                <td>@category.CreatedDate.ToShortDateString()</td>
+                                <td>@category.CreatedByName</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            // datatable burada başlıyor.
+            $('#categoriesTable').DataTable({
+
+                dom: "<'row'<'col-sm-3'l><'col-sm-6 text-center'B><'col-sm-3'f>>" +
+                    "<'row'<'col-sm-12'tr>>" +
+                    "<'row'<'col-sm-5'i><'col-sm-7'p>>",
+                buttons: [
+                    {
+                        text: 'Ekle',
+                        attr: {
+                            id:'btnAdd'
+                        },
+                        action: function(e, dt, node, config){
+                            
+                        },
+                        className:'btn btn-success'
+                    },
+                    {
+                        text: 'Yenile',
+                        action: function (e, dt, node, config) {
+                            alert('Yenile butonuna tıklandı');
+                        },
+                        className:'btn btn-warning'
+                    }
+                ],
+                language: {
+                    url: 'https://cdn.datatables.net/plug-ins/1.13.1/i18n/tr.json'
+                }
+            });
+            //Datatable burada bitiyor
+
+            
+            $(function(){
+                const url = '@Url.Action("Add","Category")'; // CategoryControllerdeki Add actionunun urli yolunu alıyoruz.
+                const placeHolderDiv = $('#modalPlaceHolder'); // modalPlaceHolder id sini atıyoruz.
+                // Ajaxla partialviewi ekrana getirdik
+                $('#btnAdd').click(function(){  // Ekle butonuna basıldığı zaman çalışacak fonksiyon
+                    $.get(url).done(function(data){ //Add actionun url sini alıp 
+                        placeHolderDiv.html(data); // datayı htmle gönderme
+                        placeHolderDiv.find(".modal").modal('show'); // modal'ı gösterme
+                    });
+                });
+                // Ajaxla partialviewi ekrana getirme bitti.
+
+                // Ajaxla POST işlemleri
+                placeHolderDiv.on('click', '#btnSave', function (event) // btnsaveye click eklendi ve fonksiyonu oluşturulmaya başlandı.
+                {
+                    event.preventDefault();// default davranışı ortadan kaldırıyor, engelliyor.
+                    const form = $('#form-category-add'); // form-category-add id'sini form değişkenine atama
+                    const actionUrl = form.attr('action'); // _CategoryAddPartial daki formdan action attribute alma
+                    const dataToSend = form.serialize();  // Json ile data göndermek için serialize ile datatosende atıyoruz.
+                    $.post(actionUrl, dataToSend).done(function(data) // dataları veritabanına göndermek için fonksiyonu oluşturuyoruz.
+                    {
+                        const categoryAddAjaxModel = jQuery.parseJSON(data); // jsona dönüştürme
+                        const newFormBody = $('.modal-body', categoryAddAjaxModel.CategoryAddPartial); // gelen partialviewi yerleştirdi.
+                        placeHolderDiv.find('.modal-body').replaceWith(newFormBody); // classı modal-body olan formu bulur ve newformbodye dönüştürür.
+                        const isValid = newFormBody.find('[name="IsValid"]').val() === 'True'; // name isvalid olanı value ile bul   
+                        if(isValid){ // değer varmı koşulu, eğer varsa aşağıdakiler yazdırılır.
+                            const newTableRow = `
+                                <tr>
+                                    <td>${ categoryAddAjaxModel.CategoryDto.Category.Id } </td>
+                                    <td>${ categoryAddAjaxModel.CategoryDto.Category.Name } </td>
+                                    <td>${ categoryAddAjaxModel.CategoryDto.Category.Description } </td>
+                                    <td>${ convertFirstLetterToUpperCase(categoryAddAjaxModel.CategoryDto.Category.IsActive) } </td>
+                                    <td>${ convertFirstLetterToUpperCase(categoryAddAjaxModel.CategoryDto.Category.IsDeleted) } </td>
+                                    <td>${ categoryAddAjaxModel.CategoryDto.Category.Note ?? "" } </td>
+                                    <td>${ convertToShortDate(categoryAddAjaxModel.CategoryDto.Category.CreatedDate) } </td>
+                                    <td>${ categoryAddAjaxModel.CategoryDto.Category.CreatedByName } </td>
+                                </tr>
+                            `;
+                            const newTableRowObject=$(newTableRow); // object dönüştürdük
+                            newTableRowObject.hide(); // görünmez yapar
+                            $('#categoriesTable').append(newTableRowObject); // sayfadaki tabloya ekkliyor 
+                            newTableRowObject.fadeIn(3000); // 3saniyede gözükmesini sağlar.
+                            toastr.success(`${categoryAddAjaxModel.CategoryDto.Message}`, 'Başarılı'); // toastr ile ekrana eklenen kategori ile birlikte başarılı mesajı yazdırır.
+                            placeHolderDiv.find(".modal").modal('hide'); // kaydettikten sonra ekle ekranını kapatıyor
+                        }
+                        // (toastr) ekranda uyarı verecek.
+                        else
+                        {
+                            let summaryText='<br>';
+                            $('#validation-summary > ul > li').each(function(){  // Bütün hataları yazdırmak için _CategoryAddPartialda id si validation-summary döngüye sokarak hataları toastr'da yazdırıyoruz.
+                                let liText = $(this).text();
+                                summaryText += `*${liText}<br>`;
+                            });
+                            toastr.warning(summaryText, 'Dikkat'); // olumsuz uyarı toastr'ı
+                        }
+                    });
+                }); 
+
+            });
+        });
+    </script>
+}

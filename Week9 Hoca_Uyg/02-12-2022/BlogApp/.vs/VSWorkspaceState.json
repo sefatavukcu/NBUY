@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BlogApp.Mvc",
+    "\\BlogApp.Mvc\\Areas",
+    "\\BlogApp.Mvc\\Areas\\Admin",
+    "\\BlogApp.Mvc\\Areas\\Admin\\Views",
+    "\\BlogApp.Mvc\\Areas\\Admin\\Views\\Category",
+    "\\BlogApp.Mvc\\Areas\\Admin\\Views\\Shared",
+    "\\BlogApp.Mvc\\wwwroot",
+    "\\BlogApp.Mvc\\wwwroot\\js"
+  ],
+  "SelectedNode": "\\BlogApp.Mvc\\Areas\\Admin\\Views\\Shared\\_LayoutJsPartial.cshtml",
+  "PreviewInSolutionExplorer": false
+}
