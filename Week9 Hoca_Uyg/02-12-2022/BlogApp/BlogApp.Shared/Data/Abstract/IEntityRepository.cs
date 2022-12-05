@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace BlogApp.Shared.Data.Abstract
 {
+    // Bu classtan miras alacak olan alt classlar bu özellikleri taşıyacak.
+    // 
     public interface IEntityRepository<T> 
         where T : class,
         IEntity,

@@ -12,7 +12,7 @@ namespace BlogApp.Shared.Data.Concrete.EntityFramework
 {
     public class EfEntityRepositoryBase<TEntity> : IEntityRepository<TEntity> 
         where TEntity : class, // T class olmalı
-        IEntity, // T IEntity olmalı
+        IEntity, // T IEntity olmalı! bu yüzden dosyası boş.
         new()  // T new olarak yaratılabilmeli
         // bunlar olmasa da olur hata vermez ama bu işlemler gerektiğinde sorun çıkarabilir.
     {
