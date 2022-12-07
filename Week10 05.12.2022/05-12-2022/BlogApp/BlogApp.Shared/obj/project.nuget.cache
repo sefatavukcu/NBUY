@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cHczDKghnSXufQWM4z2TZq9L9whwrTRS4dR26msDQm5vVL2bJ+bORVxktWWDwcbzy/3IfucK4HlX50Y/0mVjbQ==",
+  "dgSpecHash": "FrEp/YIHTNzhEmcN1pfptE0fOARm6IaWB7af8Zs5/TaY8EcT9DwvjYY3b/MTknkFrccwJR1eN/IgnWDSTkpUxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week10 Hoca_Uyg\\05-12-2022\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week10 05.12.2022\\05-12-2022\\BlogApp\\BlogApp.Shared\\BlogApp.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -1,0 +1,30 @@
+﻿@using ShoppingApp.Web.Models.Dtos
+@model List<ProductDto>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+    <div class="row">
+    @foreach (var productDto in Model)
+        { 
+            <div class="col-4">
+                <div class="card-header text-center bg-dark text-white">
+                    <h5 class=>@productDto.Name</h5>
+                </div>
+                <div class="card">
+                    <div class="card-body text-center">
+                       Fiyat= @productDto.Price <br><br>
+                       Eklenme Tarihi= @productDto.DateAdded <br><br>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        }
+    </div>    
+</div>

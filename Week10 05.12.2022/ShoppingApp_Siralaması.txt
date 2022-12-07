@@ -1,0 +1,24 @@
+1- ShoppingApp klasörleri oluşturduk.
+2- ShoppingApp içinde Business, Data ve Entity klasörleri oluşturduk. (dotnet new classlib -o ShoppingApp.Business)
+3- Web klasörünün içini dotnet new mvc -o ShoppingApp.Web komutu ile doldurduk.
+4- Sln'leri oluşturacağız. (dotnet sln add ShoppingApp.Business)
+5- Web klasörü içindeki csproj dosyasının içine 
+	<ProjectReference Include="../ShoppingApp.Business/ShoppingApp.Business.csproj"/> yazıyoruz.
+	bu web katmanı ile business katmanı arasındaki bağlantıyı oluşturur. Bunu daha sonra Business ile Data
+	Data ile de Entity ile bağlıyoruz. Eğer başka bir katman da var ise onun la da birleştirmemiz gerekiyor.
+6- Entity katmanının içinde Abstract ve Concrete klasörleri oluşturuyoruz.
+7- Abstract klasörünün içine IEntityBase interfacesini oluşturuyoruz. (Burada tüm kullanılacak ortak interfaceler olacak.) 
+8- Concrete klasörünün içine Category, Product ve ProductCategory classlarını oluşturuyoruz.
+	-Category classının içinde bir kategorinin sahip olacağı propertyleri oluşturuyoruz. Ayrıca bu class'ta IEntityBase'den miras alıyoruz.
+	-Product classının içinde bir productın sahip olacağı propertyleri oluşturuyoruz. Ayrıca bu class'ta IEntityBase'den miras alıyoruz.
+	-Hangi ürünün hangi kategoriye sahip olduğunu belirttiğimiz bir class oluşturuyoruz. Bu class'ta ProductCategory. 
+	    Oluşacak olan tablo da çoka çok bir ilişki olacak. Bir ürünün birden fazla kategorisi olabilir. Bir kategoride de birden fazla ürün olabilir.
+9- ShoppingApp.Data Klasörünün içinde nuget package add ile Microsoft.EntityFrameworkCore.Design ve Microsoft.EntityFrameworkCore.Sqlite (hangi veritabanı olacağına göre değişebilir.) indiriyoruz.
+10- Abstract, Concrete ve Config klasörlerini oluşturuyoruz.
+11- Abstract klasörünün içine ICategoryRepository, IProductRepository ve IRepository interfacelerini oluşturuyoruz.
+	- ICategoryRepository, IRepository'den miras alır. Onun metotlarını kullanır. Ayriyeten category için özel bir metot yazılacaksa bunun içine yazılır. Miras verirken de sadece ICategoryRepositorye vermemiz yeterli olacak.
+	- IProductRepository, IRepository'den miras alır. Onun metotlarını kullanır. Ayriyeten product için özel bir metot yazılacaksa bunun içine yazılır. Miras verirken de sadece IProductRepository vermemiz yeterli olacak.
+	- IRepository'de tüm entitylerimiz için geçerli olacak metotlar generic yapıda bunun içine yazılır. 
+12- Concrete klasörünün içinde EfCore klasörü oluşturuyoruz. 
+13- EfCore klasörünün içinde veritabanı bağlantısı için Contexts klasörü oluşturuyoruz.
+	- Contexts klasörünün içinde ShopAppContext adında veritabanı bağlantısını sağlamak için bir class oluşturuyoruz.
