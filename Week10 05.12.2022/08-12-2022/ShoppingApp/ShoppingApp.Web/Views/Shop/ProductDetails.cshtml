@@ -1,0 +1,26 @@
+@using ShoppingApp.Web.Models.Dtos
+@model ProductDetailsDto
+
+
+
+<div class="mt-5 row">
+    <div class="col-4 text-center py-3 border">
+        <img src="~/images/@Model.ImageUrl">
+    </div>
+    <div class="col-8 card">
+        <div class="row card-header">
+            <h1 class="display-4">@Model.Name</h1>
+        </div>
+        <div class="card-body">
+            <div class="text-black">Ürün Fiyatı: @($"{Model.Price:C2}")</div><br><br><br>
+            <div class="text-black">Ürün Açıklaması <br>@($"{Model.Description}")</div><br>
+            <button class="btn btn-success">Sepete Ekle</button>
+            <button class="btn btn-primary">Favorilere Ekle</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
