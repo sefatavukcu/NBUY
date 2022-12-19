@@ -41,7 +41,8 @@ namespace ShoppingApp.Web.Controllers
                 {
                     TempData["Message"] = Jobs.CreateMessage("Bilgi", "Hesabınız onaylanmamış, lütfen mailinize gelen onay linkine tıklayarak hesabınızı onaylayınız.", "warning");
                     return View(loginDto);
-                    //ÖDEV: Eğer hesap onaylı değilse burada kullanıcıya "Onay linki gönder" şeklinde bir buton gözüksün. Ve bu butona basıldığında tekrar onay maili yollansın.
+                    //ÖDEV: Eğer hesap onaylı değilse burada kullanıcıya "Onay linki gönder" şeklinde bir buton gözüksün.
+                    //Ve bu butona basıldığında tekrar onay maili yollansın.
                 }
                 var result = await _signInManager.PasswordSignInAsync(user, loginDto.Password, true, true);
                 if (result.Succeeded)
