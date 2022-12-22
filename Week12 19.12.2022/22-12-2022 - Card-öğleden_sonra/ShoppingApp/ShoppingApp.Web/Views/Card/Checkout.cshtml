@@ -1,0 +1,104 @@
+﻿@model OrderDto
+<h6 class="display-6">Ödeme</h6>
+<form asp-controller="Card"
+	  asp-action="Checkout"
+	  method="post">
+	<div class="row">
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<div class="col-8">
+			<h6 class="display-6">Satış Bilgileri</h6>
+			<div class="row mb-3">
+				<div class="col-6">
+					<label asp-for="Firstname" class="form-label"></label>
+					<input asp-for="Firstname" class="form-control" />
+					<span asp-validation-for="Firstname" class="text-danger"></span>
+				</div>
+				<div class="col-6">
+					<label asp-for="Lastname" class="form-label"></label>
+					<input asp-for="Lastname" class="form-control" />
+					<span asp-validation-for="Lastname" class="text-danger"></span>
+				</div>
+				<div class="row mb-3">
+					<div class="col-12">
+						<label asp-for="Address" class="form-label"></label>
+						<input asp-for="Address" class="form-control" />
+						<span asp-validation-for="Address" class="text-danger"></span>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<div class="col-4">
+						<label asp-for="City" class="form-label"></label>
+						<input asp-for="City" class="form-control" />
+						<span asp-validation-for="City" class="text-danger"></span>
+					</div>
+					<div class="col-4">
+						<label asp-for="Phone" class="form-label"></label>
+						<input asp-for="Phone" class="form-control" />
+						<span asp-validation-for="Phone" class="text-danger"></span>
+					</div>
+					<div class="col-4">
+						<label asp-for="Email" class="form-label"></label>
+						<input asp-for="Email" class="form-control" />
+						<span asp-validation-for="Email" class="text-danger"></span>
+					</div>
+				</div>
+				<h6 class="display-6">Kart Bilgileri</h6>
+				<div class="row mb-3">
+					<div class="col-6">
+						<label asp-for="CardName" class="form-label"></label>
+						<input asp-for="CardName" class="form-control" />
+						<span asp-validation-for="CardName" class="text-danger"></span>
+					</div>
+					<div class="col-6">
+						<label asp-for="CardNumber" class="form-label"></label>
+						<input asp-for="CardNumber" class="form-control" />
+						<span asp-validation-for="CardNumber" class="text-danger"></span>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<div class="col-3">
+						<label asp-for="ExpirationMonth" class="form-label"></label>
+						<input asp-for="ExpirationMonth" class="form-control" />
+						<span asp-validation-for="ExpirationMonth" class="text-danger"></span>
+					</div>
+					<div class="col-3">
+						<label asp-for="ExpirationYear" class="form-label"></label>
+						<input asp-for="ExpirationYear" class="form-control" />
+						<span asp-validation-for="ExpirationYear" class="text-danger"></span>
+					</div>
+					<div class="col-6">
+						<label asp-for="Cvc" class="form-label"></label>
+						<input asp-for="Cvc" class="form-control" />
+						<span asp-validation-for="Cvc" class="text-danger"></span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="col-4">
+			<h6 class="display-6">Satış Bilgileri</h6>
+			<ul class="list-group mb-3">
+				@foreach (var cardItem in Model.CardDto.CardItems)
+				{
+					<li class="list-group-item">
+						<div><h6>@cardItem.ProductName</h6></div>
+						<span>@cardItem.Quantity</span>
+						<span>@($"{cardItem.ItemPrice:C0}")</span>
+						@{
+							decimal? total = cardItem.ItemPrice * cardItem.Quantity;
+						}
+						<span>@($"{total:C0}")</span>
+					</li>
+				}
+				<li class="list-group-item">
+					<span>Toplam: </span>
+					<strong>@($"{Model.CardDto.TotalPrice():C0}")</strong>
+				</li>
+			</ul>
+			<div class="text-end">
+				<button class="btn btn-success">Ödemeyi Yap</button>
+			</div>
+		</div>
+	</div>
+
+</form>
