@@ -1,0 +1,17 @@
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\bin\Debug\net7.0\ShoppingApp.Data.deps.json
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\bin\Debug\net7.0\ShoppingApp.Data.runtimeconfig.json
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\bin\Debug\net7.0\ShoppingApp.Data.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\bin\Debug\net7.0\ShoppingApp.Data.pdb
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\bin\Debug\net7.0\ShoppingApp.Entity.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\bin\Debug\net7.0\ShoppingApp.Entity.pdb
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ShoppingApp.Data.csproj.AssemblyReference.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ShoppingApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ShoppingApp.Data.AssemblyInfoInputs.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ShoppingApp.Data.AssemblyInfo.cs
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ShoppingApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ShoppingApp.Data.csproj.CopyComplete
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ShoppingApp.Data.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\refint\ShoppingApp.Data.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ShoppingApp.Data.pdb
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ShoppingApp.Data.genruntimeconfig.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\27-12-2022\ShoppingApp\ShoppingApp.Data\obj\Debug\net7.0\ref\ShoppingApp.Data.dll
