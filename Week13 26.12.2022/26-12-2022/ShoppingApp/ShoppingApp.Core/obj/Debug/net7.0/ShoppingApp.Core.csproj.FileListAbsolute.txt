@@ -22,3 +22,15 @@ C:\Users\SABAH\Documents\GitHub\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\Sh
 C:\Users\SABAH\Documents\GitHub\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\refint\ShoppingApp.Core.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ShoppingApp.Core.pdb
 C:\Users\SABAH\Documents\GitHub\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ref\ShoppingApp.Core.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\bin\Debug\net7.0\ShoppingApp.Core.deps.json
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\bin\Debug\net7.0\ShoppingApp.Core.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\bin\Debug\net7.0\ShoppingApp.Core.pdb
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ShoppingApp.Core.csproj.AssemblyReference.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ShoppingApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ShoppingApp.Core.AssemblyInfoInputs.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ShoppingApp.Core.AssemblyInfo.cs
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ShoppingApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ShoppingApp.Core.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\refint\ShoppingApp.Core.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ShoppingApp.Core.pdb
+C:\Users\SEFA\Desktop\Github\NBUY\Week13 26.12.2022\26-12-2022\ShoppingApp\ShoppingApp.Core\obj\Debug\net7.0\ref\ShoppingApp.Core.dll
