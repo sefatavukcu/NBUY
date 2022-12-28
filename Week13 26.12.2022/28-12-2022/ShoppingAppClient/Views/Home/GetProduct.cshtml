@@ -1,0 +1,17 @@
+﻿@model ProductViewModel
+
+
+<div class="card">
+	<div class="row">
+		<div class="col-4">
+			<div class="card-img text-center bg-light">
+				<img width="200" ; src="http://localhost:5000/images/@Model.ImageUrl" />
+			</div>
+		</div>
+		<div class="col-6 card-body">
+			<h6 class="card-title display-6 fw-bold">@Model.Name</h6>
+			<div class="display-6">@($"{Model.Price:C0}")</div>
+			<div class="display-6">@Model.Description</div>
+		</div>
+	</div>
+</div>

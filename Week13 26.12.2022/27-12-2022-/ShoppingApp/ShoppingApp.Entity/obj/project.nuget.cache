@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H1pySPTj6OFDvBCtbPSdKaCRely7e1D56MCDATu6rnKhlq8BS2stqiUIk/qk6qX+IsYKdRW8l9zrSPpTlL3bkg==",
+  "dgSpecHash": "YMHgua4g3pEWZv+JH0WTCib67FzwSgeIw9drgnm90Cf51IbHlgkPd8Hx8Qiywe9QZ9w8LwBM+j14hyxXOwVe6w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\SEFA\\Desktop\\Github\\NBUY\\Week13 26.12.2022\\27-12-2022-\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
+  "projectFilePath": "C:\\Users\\SEFA\\Desktop\\Github\\NBUY\\Week13 26.12.2022\\27-12-2022-\\ShoppingApp\\ShoppingApp.Entity\\ShoppingApp.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SEFA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.1\\microsoft.aspnetcore.cryptography.internal.7.0.1.nupkg.sha512",
     "C:\\Users\\SEFA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.1\\microsoft.aspnetcore.cryptography.keyderivation.7.0.1.nupkg.sha512",
