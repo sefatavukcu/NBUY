@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ssk434/jBCFamSnvZFtteWYBvjj6tJ1WpsWx1V6vELFA6ia++vdPTz4Y2AIARZcrSm9gRceCEKXR8wentIX6Pg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SEFA\\Desktop\\Github\\NBUY\\Week13 26.12.2022\\30-12-2022\\ShoppingApi\\ShoppingApi.Core\\ShoppingApi.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SEFA\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\SEFA\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\SEFA\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\SEFA\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
