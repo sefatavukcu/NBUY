@@ -12,7 +12,7 @@ namespace GetCountriesFromApi.Controllers
             List<Country> countryList = new List<Country>();
             using (var httpClient = new HttpClient())
             {
-                using (var response = await httpClient.GetAsync("https://restcountries.com/v2/all"))
+                using (var response = await httpClient.GetAsync("https://restcountries.com/v3.1/all"))
                 {
                     var stringResponse = await response.Content.ReadAsStringAsync();
                     countryList = JsonSerializer.Deserialize<List<Country>>(stringResponse);

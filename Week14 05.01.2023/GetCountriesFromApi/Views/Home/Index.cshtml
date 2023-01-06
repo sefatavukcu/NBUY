@@ -9,6 +9,9 @@
         <tr>
             <th>Ülke</th>
             <th>Başkent</th>
+            <th>Nüfus</th>
+            <th>Dil</th>
+            <th>Araç Trafiği</th>
             <th>Bayrak</th>
         </tr>
     </thead>
@@ -16,10 +19,13 @@
         @foreach (var country in Model)
         {
             <tr>
-                <td>@country.name</td>
-                <td>@country.capital</td>
+                <td>@country.</td>
+                <td>@country.Capital</td>
+                <td>@country.Population</td>
+                <td>@country.Languages</td>
+                <td>@country.Car.Side</td>
                 <td>
-                    <img src="@country.flag" width="200">
+                    <img src="@country.Flag" width="100">
                 </td>
             </tr>
         }

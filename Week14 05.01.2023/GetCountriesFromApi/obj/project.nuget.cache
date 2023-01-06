@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Nc836X1JrxnGQ7EEQxAJNPTSbmi5DNkf26VvcadmQOgFETA+9mySNkPqRO93rMiJ22WQsjWNFhWdyPm91KMaEA==",
+  "dgSpecHash": "bjAf0MSCY0GgPgL+7pW1Lgu3OyW2g5UTAMWXZi1Y/OFXg5S2+KTK9gf/D5n+BV2yF7SN6fvTPVbb2Ke46NoDMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\SEFA\\Desktop\\Github\\NBUY\\Week14 05.01.2023\\GetCountriesFromApi\\GetCountriesFromApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SEFA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\SEFA\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\SEFA\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\SEFA\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }
