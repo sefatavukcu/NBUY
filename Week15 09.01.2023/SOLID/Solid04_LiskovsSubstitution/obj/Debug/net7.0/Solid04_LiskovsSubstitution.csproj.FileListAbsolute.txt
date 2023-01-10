@@ -1,0 +1,15 @@
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.exe
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.deps.json
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.runtimeconfig.json
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\bin\Debug\net7.0\Solid04_LiskovsSubstitution.pdb
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.csproj.AssemblyReference.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.AssemblyInfoInputs.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.AssemblyInfo.cs
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.csproj.CoreCompileInputs.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\refint\Solid04_LiskovsSubstitution.dll
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.pdb
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\Solid04_LiskovsSubstitution.genruntimeconfig.cache
+C:\Users\SEFA\Desktop\Github\NBUY\Week15 09.01.2023\SOLID\Solid04_LiskovsSubstitution\obj\Debug\net7.0\ref\Solid04_LiskovsSubstitution.dll
